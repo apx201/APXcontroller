@@ -1,0 +1,4382 @@
+{
+  "name": "仿基岩版控件1.5.0",
+  "version": "1.5.0",
+  "author": "",
+  "description": "",
+  "controllerVersion": 0,
+  "viewGroups": [
+    {
+      "id": "0830343f-c056-43a1-b4e2-515fe30afaee",
+      "name": "主屏幕1",
+      "visibility": "VISIBLE",
+      "viewData": {
+        "buttonList": [],
+        "directionList": []
+      }
+    },
+    {
+      "id": "40d4b992-9ac9-4bc6-9b8f-c5d6a689f39e",
+      "name": "确认窗口2",
+      "visibility": "VISIBLE",
+      "viewData": {
+        "buttonList": [
+          {
+            "id": "2fd53052-d6f1-418a-85a9-3bc1a121577a",
+            "text": "",
+            "style": {
+              "name": "背景",
+              "textColor": -1,
+              "textSize": 12,
+              "strokeColor": 0,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 2063597568,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": 0,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2063597568
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 500,
+              "yPosition": 465,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 492
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 303
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "264c4569-0ec3-4954-8ec5-c40a0b6817fe",
+            "text": "感谢使用 仿基岩版FCL控件布局 ！ ",
+            "style": {
+              "name": "全透明",
+              "textColor": -1,
+              "textSize": 12,
+              "strokeColor": 0,
+              "strokeWidth": 0,
+              "cornerRadius": 0,
+              "fillColor": 0,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": 0,
+              "strokeWidthPressed": 0,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 0
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 520,
+              "yPosition": 263,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 397
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "b4d59cc4-0059-40f4-a10a-79f1865246db",
+            "text": "布局作者：哔哩哔哩-不想取名的阿peng",
+            "style": {
+              "name": "全透明",
+              "textColor": -1,
+              "textSize": 12,
+              "strokeColor": 0,
+              "strokeWidth": 0,
+              "cornerRadius": 0,
+              "fillColor": 0,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": 0,
+              "strokeWidthPressed": 0,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 0
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 518,
+              "yPosition": 325,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 397
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "442e7dc6-f954-43bf-98b3-a770833d15b6",
+            "text": "有任何建议欢迎提出！",
+            "style": {
+              "name": "全透明",
+              "textColor": -1,
+              "textSize": 12,
+              "strokeColor": 0,
+              "strokeWidth": 0,
+              "cornerRadius": 0,
+              "fillColor": 0,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": 0,
+              "strokeWidthPressed": 0,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 0
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 512,
+              "yPosition": 391,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 397
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "e49e2e89-fad0-4aa6-8717-cdbfadfa2069",
+            "text": "确定",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 500,
+              "yPosition": 713,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 118
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 49
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": [
+                  "40d4b992-9ac9-4bc6-9b8f-c5d6a689f39e"
+                ]
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "0e911479-7060-40f6-9855-b760f784269e",
+            "text": "  ！",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 730,
+              "yPosition": 181,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 30
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 30
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": [
+                  "2482529d-a553-4067-9427-153fcc498680",
+                  "40d4b992-9ac9-4bc6-9b8f-c5d6a689f39e"
+                ]
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          }
+        ],
+        "directionList": []
+      }
+    },
+    {
+      "id": "a7595be0-0705-488b-9786-c055f7e4aa0e",
+      "name": "默认模式1.1",
+      "visibility": "VISIBLE",
+      "viewData": {
+        "buttonList": [
+          {
+            "id": "2460ed98-4711-4a18-bafa-8bbbc428ddae",
+            "text": "\u003e",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 0,
+              "yPosition": 97,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": [
+                  "f7a845da-d7ce-4530-b76e-156b1baa024f"
+                ]
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "1643a73d-71f9-43f8-b9bc-fe1254eef67e",
+            "text": "Esc",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 0,
+              "yPosition": 0,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  1
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "c6df529f-a580-43ab-a222-25488e9474a5",
+            "text": "💬",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 482,
+              "yPosition": 0,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": [
+                  "5aa3ab6b-94ad-483c-99b7-93beb383fea7",
+                  "e9544b3b-d4da-4372-8c8d-514c144638eb",
+                  "28c12971-5263-4e95-bcbf-dd9ee7551bd4"
+                ]
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          }
+        ],
+        "directionList": []
+      }
+    },
+    {
+      "id": "f7a845da-d7ce-4530-b76e-156b1baa024f",
+      "name": "功能键1.1.1",
+      "visibility": "INVISIBLE",
+      "viewData": {
+        "buttonList": [
+          {
+            "id": "f2106187-910c-45d0-8583-cc646e06c4f1",
+            "text": "Ctrl",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 43,
+              "yPosition": 192,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  29
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "b9d37acb-bc8a-4abb-ba5d-8ba4d843dfb2",
+            "text": "Enter",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 43,
+              "yPosition": 96,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  28
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "a773522b-f970-4516-a38f-8609e28ab100",
+            "text": "Shift",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 43,
+              "yPosition": 289,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  42
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "1e304a63-0724-4d30-904c-740c4a522a3e",
+            "text": "T",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 86,
+              "yPosition": 96,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  20
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "98cdbfe4-8ed4-4c56-ae95-1571112d0908",
+            "text": "⌨️",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 86,
+              "yPosition": 193,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": true,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  20
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "dfd5b2f4-4f72-439c-823e-03d5e6ed695e",
+            "text": "Tab",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 43,
+              "yPosition": 385,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": true,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  15
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "6d43afcc-ce12-4153-be95-a18d59d2a5e6",
+            "text": "←",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 86,
+              "yPosition": 288,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  14
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "a0769059-f9cb-4fdc-b172-2b31adb73139",
+            "text": "F1",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 128,
+              "yPosition": 95,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  59
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "44c23f30-d666-4695-9ade-8b61ca3a8f5f",
+            "text": "F3",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 128,
+              "yPosition": 193,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 83
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  61
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          }
+        ],
+        "directionList": []
+      }
+    },
+    {
+      "id": "2482529d-a553-4067-9427-153fcc498680",
+      "name": "注意面板2.1",
+      "visibility": "INVISIBLE",
+      "viewData": {
+        "buttonList": [
+          {
+            "id": "f70dd36f-c4f4-4200-9edb-875576804292",
+            "text": "",
+            "style": {
+              "name": "背景",
+              "textColor": -1,
+              "textSize": 12,
+              "strokeColor": 0,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 2063597568,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": 0,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2063597568
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 500,
+              "yPosition": 465,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 492
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 305
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "4678a2e7-5392-4a92-a676-1a6e53a240ab",
+            "text": "注意",
+            "style": {
+              "name": "全透明",
+              "textColor": -1,
+              "textSize": 12,
+              "strokeColor": 0,
+              "strokeWidth": 0,
+              "cornerRadius": 0,
+              "fillColor": 0,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": 0,
+              "strokeWidthPressed": 0,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 0
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 497,
+              "yPosition": 209,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "8fa883ed-e169-4bab-be67-e4f9d4d5dde1",
+            "text": "1.本控件暂还是测试版，可能会有bug。",
+            "style": {
+              "name": "全透明",
+              "textColor": -1,
+              "textSize": 12,
+              "strokeColor": 0,
+              "strokeWidth": 0,
+              "cornerRadius": 0,
+              "fillColor": 0,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": 0,
+              "strokeWidthPressed": 0,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 0
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 349,
+              "yPosition": 283,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 564
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "a1e004da-690d-4eab-9088-867d624ded5e",
+            "text": "2.遇到问题请私信up。",
+            "style": {
+              "name": "全透明",
+              "textColor": -1,
+              "textSize": 12,
+              "strokeColor": 0,
+              "strokeWidth": 0,
+              "cornerRadius": 0,
+              "fillColor": 0,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": 0,
+              "strokeWidthPressed": 0,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 0
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 211,
+              "yPosition": 338,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 564
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "f4fb2f5d-cfa9-40db-a5ee-62326b1ca2fe",
+            "text": "3.看了记得回视频三连awa制作不易。",
+            "style": {
+              "name": "全透明",
+              "textColor": -1,
+              "textSize": 12,
+              "strokeColor": 0,
+              "strokeWidth": 0,
+              "cornerRadius": 0,
+              "fillColor": 0,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": 0,
+              "strokeWidthPressed": 0,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 0
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 331,
+              "yPosition": 394,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 564
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "d5da75e0-46ec-432c-a30c-28199aae9c92",
+            "text": "作者：不想取名的阿peng",
+            "style": {
+              "name": "全透明",
+              "textColor": -1,
+              "textSize": 12,
+              "strokeColor": 0,
+              "strokeWidth": 0,
+              "cornerRadius": 0,
+              "fillColor": 0,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": 0,
+              "strokeWidthPressed": 0,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 0
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 495,
+              "yPosition": 797,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 564
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "2ac21794-a9f6-4832-8d31-958193887e4a",
+            "text": "关闭",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 275,
+              "yPosition": 188,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 27
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": [
+                  "2482529d-a553-4067-9427-153fcc498680",
+                  "40d4b992-9ac9-4bc6-9b8f-c5d6a689f39e"
+                ]
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          }
+        ],
+        "directionList": []
+      }
+    },
+    {
+      "id": "5aa3ab6b-94ad-483c-99b7-93beb383fea7",
+      "name": "聊天控制台1.1.2",
+      "visibility": "INVISIBLE",
+      "viewData": {
+        "buttonList": [
+          {
+            "id": "a01effd5-3e58-495b-9d78-74ac435359a5",
+            "text": "     天气                            \u003e    ",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 0,
+              "yPosition": 827,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": [
+                  "3b5b9e56-64c5-464d-9615-8a9789c3ecde"
+                ]
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "6b2b074f-5b25-4dbd-a44a-5e5598481207",
+            "text": "     其他                            \u003e    ",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 0,
+              "yPosition": 452,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "/weather thunder ",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "5e963bb2-5ad0-4f6f-8a22-89102fd38f6a",
+            "text": "     传送                            \u003e    ",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 0,
+              "yPosition": 576,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "/weather rain ",
+                "outputKeycodes": [],
+                "bindViewGroup": [
+                  "07366b0d-3193-4d01-9944-ef4904f4a9e5"
+                ]
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "1f83436e-3bf3-4fc4-9908-cf3fbf79dcff",
+            "text": "     时间                            \u003e    ",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 0,
+              "yPosition": 702,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "/weather clear ",
+                "outputKeycodes": [],
+                "bindViewGroup": [
+                  "8780983a-cc8c-4eda-8136-9225f9e7a91f"
+                ]
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          }
+        ],
+        "directionList": []
+      }
+    },
+    {
+      "id": "e9544b3b-d4da-4372-8c8d-514c144638eb",
+      "name": "鼠标键",
+      "visibility": "VISIBLE",
+      "viewData": {
+        "buttonList": [
+          {
+            "id": "1e21bfc1-7b01-42bf-a36c-48418b908907",
+            "text": "◇",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 805,
+              "yPosition": 687,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 135
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 135
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  57
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "27f29e2c-8cc9-4a5c-b065-ea8bec384cba",
+            "text": "⤴",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 805,
+              "yPosition": 499,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 135
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 135
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  57
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "15d72bdd-fea7-4a34-a41a-08bd1b44e3ec",
+            "text": "⤵",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 805,
+              "yPosition": 873,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 135
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 135
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  42
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "6781e754-d048-4137-bf96-f1e2b00416ae",
+            "text": "×",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 726,
+              "yPosition": 684,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 135
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 135
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  1000
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "0853feca-742d-476d-9685-20caa116af78",
+            "text": "○",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 884,
+              "yPosition": 686,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 135
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 135
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  1002
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "2d25adeb-81d5-4970-ab51-8f77832009c1",
+            "text": "◎",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 885,
+              "yPosition": 503,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 135
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 135
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  1001
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "fdee3fc6-8dc8-4de3-bcef-0519cb135869",
+            "text": "︽",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 727,
+              "yPosition": 472,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 135
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 60
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  1003
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "1714a0a4-f9c7-4f8f-a697-a8fb279294e3",
+            "text": "︾",
+            "style": {
+              "name": "基岩版按键",
+              "textColor": -611479665,
+              "textSize": 12,
+              "strokeColor": 4473924,
+              "strokeWidth": 10,
+              "cornerRadius": 0,
+              "fillColor": 1518831752,
+              "textColorPressed": -208826481,
+              "textSizePressed": 12,
+              "strokeColorPressed": 4473924,
+              "strokeWidthPressed": 10,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": 2122811528
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 727,
+              "yPosition": 541,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 135
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 60
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [
+                  1004
+                ],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          }
+        ],
+        "directionList": []
+      }
+    },
+    {
+      "id": "28c12971-5263-4e95-bcbf-dd9ee7551bd4",
+      "name": "方向键",
+      "visibility": "VISIBLE",
+      "viewData": {
+        "buttonList": [],
+        "directionList": [
+          {
+            "id": "75b058d3-469f-4e9c-899b-5341fc569d4d",
+            "style": {
+              "name": "基岩版按键",
+              "styleType": "BUTTON",
+              "buttonStyle": {
+                "interval": 50,
+                "textColor": -611479665,
+                "textSize": 12,
+                "strokeColor": 4473924,
+                "strokeWidth": 10,
+                "cornerRadius": 0,
+                "fillColor": 1518831752,
+                "textColorPressed": -208826481,
+                "textSizePressed": 12,
+                "strokeColorPressed": 4473924,
+                "strokeWidthPressed": 10,
+                "cornerRadiusPressed": 0,
+                "fillColorPressed": 2122811528
+              },
+              "rockerStyle": {
+                "rockerSize": 400,
+                "bgCornerRadius": 500,
+                "bgStrokeWidth": 20,
+                "bgStrokeColor": -12303292,
+                "bgFillColor": 0,
+                "rockerCornerRadius": 500,
+                "rockerStrokeWidth": 10,
+                "rockerStrokeColor": -12303292,
+                "rockerFillColor": -7829368
+              }
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 53,
+              "yPosition": 776,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 470
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_HEIGHT",
+                "size": 470
+              }
+            },
+            "event": {
+              "upKeycode": 17,
+              "downKeycode": 31,
+              "leftKeycode": 30,
+              "rightKeycode": 32,
+              "followOption": "CENTER_FOLLOW",
+              "sneak": true,
+              "sneakKeycode": 42
+            }
+          }
+        ]
+      }
+    },
+    {
+      "id": "3b5b9e56-64c5-464d-9615-8a9789c3ecde",
+      "name": "天气命令1.1.2.1",
+      "visibility": "INVISIBLE",
+      "viewData": {
+        "buttonList": [
+          {
+            "id": "4c3dbeda-292a-43b4-9cd3-ff978a507f42",
+            "text": "🌩雷暴                              ",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 297,
+              "yPosition": 828,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "/weather thunder ",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "fc916a3e-f950-430f-9f14-49844747f39f",
+            "text": "🌧雨天                              ",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 297,
+              "yPosition": 703,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "/weather rain ",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "ccd9ca9e-619e-4fbe-8fc8-3e0e51eed67d",
+            "text": "☀️晴天                              ",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 296,
+              "yPosition": 576,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "/weather clear ",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          }
+        ],
+        "directionList": []
+      }
+    },
+    {
+      "id": "8780983a-cc8c-4eda-8136-9225f9e7a91f",
+      "name": "时间命令1.1.2.2",
+      "visibility": "INVISIBLE",
+      "viewData": {
+        "buttonList": [
+          {
+            "id": "3b9647cc-7979-4b7e-b5dc-d9cf52ef482f",
+            "text": "🌌午夜                              ",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 297,
+              "yPosition": 828,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "/time set midnight ",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "f8392a3a-30a8-4055-8dfc-c19ee9215295",
+            "text": "🌃夜晚                              ",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 296,
+              "yPosition": 701,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "/time set night",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "ed289553-a8fc-494d-ad14-48fa6abb5057",
+            "text": "🏙中午                              ",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 295,
+              "yPosition": 572,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "/time set noon ",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "7210b436-71f6-490f-b06b-b8f94a77fca4",
+            "text": "🌇白日                              ",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 295,
+              "yPosition": 445,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "/time set day ",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          }
+        ],
+        "directionList": []
+      }
+    },
+    {
+      "id": "07366b0d-3193-4d01-9944-ef4904f4a9e5",
+      "name": "传送指令1.1.2.3",
+      "visibility": "INVISIBLE",
+      "viewData": {
+        "buttonList": [
+          {
+            "id": "374a0fa7-6b0f-423d-b7b6-48f116d22bdf",
+            "text": "@r 随机玩家",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 297,
+              "yPosition": 828,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "@r ",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "dd61cf81-0781-4483-9440-7243bc6cfc8c",
+            "text": "@e 所有实体",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 296,
+              "yPosition": 700,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "@e ",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "880091cc-5bb9-4200-908f-2710cef2d928",
+            "text": "@p 最近玩家",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 297,
+              "yPosition": 572,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "@p ",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "1c9cbe57-5caf-4e2a-a6ce-2143e1adb6fa",
+            "text": "@a 所有玩家",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 297,
+              "yPosition": 444,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "@a ",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "ed96d2ce-e1ac-4b96-bb2d-e7e8e767ce06",
+            "text": "@s 自己",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 296,
+              "yPosition": 316,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "@s ",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          },
+          {
+            "id": "54638209-916c-48b0-b801-3df509265137",
+            "text": "~ ~ ~",
+            "style": {
+              "name": "基岩版2",
+              "textColor": -12369085,
+              "textSize": 12,
+              "strokeColor": -2171170,
+              "strokeWidth": 12,
+              "cornerRadius": 0,
+              "fillColor": -2368549,
+              "textColorPressed": -1,
+              "textSizePressed": 12,
+              "strokeColorPressed": -2171170,
+              "strokeWidthPressed": 14,
+              "cornerRadiusPressed": 0,
+              "fillColorPressed": -14711533
+            },
+            "baseInfo": {
+              "visibilityType": "ALWAYS",
+              "xPosition": 295,
+              "yPosition": 186,
+              "sizeType": "PERCENTAGE",
+              "absoluteWidth": 50,
+              "absoluteHeight": 50,
+              "percentageWidth": {
+                "reference": "SCREEN_WIDTH",
+                "size": 226
+              },
+              "percentageHeight": {
+                "reference": "SCREEN_WIDTH",
+                "size": 50
+              }
+            },
+            "event": {
+              "pointerFollow": false,
+              "Movable": false,
+              "pressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "~ ~ ~ ",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "longPressEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "clickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              },
+              "doubleClickEvent": {
+                "autoKeep": false,
+                "autoClick": false,
+                "openMenu": false,
+                "switchTouchMode": false,
+                "input": false,
+                "quickInput": false,
+                "outputText": "",
+                "outputKeycodes": [],
+                "bindViewGroup": []
+              }
+            }
+          }
+        ],
+        "directionList": []
+      }
+    }
+  ]
+}
